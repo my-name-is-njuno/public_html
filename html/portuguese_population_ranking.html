@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JustList - Ranking countries By portuguese Population</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/table.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="z-depth-2  transparent">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="../index.html" class="brand-logo center">JustList</a>
+                </div>
+                
+            </div>
+        </nav>
+        <h1 class="center">The Lists That Matters</h1>
+        <h5 class="center"> Ranking countries By portuguese Population</h5>
+    </header>
+    <section class="section section-main">
+        <div class="container">
+
+            <div class="row center">
+                <h1> Ranking countries By portuguese Population</h1>
+            </div>
+
+            <div class="row hide-on-small-and-down">
+
+                    <table class="responstable">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Country</th>
+                                <th data-th="Driver details"><span>Portuguese Population</span></th>
+                                <th data-th="Driver details"><span>Region</span></th>
+                                <th data-th="Driver details"><span>More Info </span></th>
+                               
+                        </thead>
+                        <tbody>
+
+    
+        
+        <tr>
+            <td>1</td>
+            <td>Brazil</td>
+            <td>207,353,391 Persons</td>
+            <td>South America</td>
+            <td>Portuguese in Brazil</td>
+           
+            
+    
+                     
+        </tr>
+        
+    
+        
+        <tr>
+            <td>2</td>
+            <td>Angola</td>
+            <td>29,310,273 Persons</td>
+            <td>Africa</td>
+            <td>Portuguese in Angola</td>
+           
+            
+    
+                     
+        </tr>
+        
+    
+        
+        <tr>
+            <td>3</td>
+            <td>Mozambique</td>
+            <td>26,573,706 Persons</td>
+            <td>Africa</td>
+            <td>Portuguese in Mozambique</td>
+           
+            
+    
+                     
+        </tr>
+        
+    
+        
+        <tr>
+            <td>4</td>
+            <td>Portugal</td>
+            <td>10,839,514 Persons</td>
+            <td>Europe</td>
+            <td>Portuguese in Portugal1</td>
+           
+            
+    
+                     
+        </tr>
+        
+    
+        
+        <tr>
+            <td>5</td>
+            <td>Guinea-Bissau</td>
+            <td>1,792,338 Persons</td>
+            <td>Africa</td>
+            <td>Portuguese in Guinea-Bissau</td>
+           
+            
+    
+                     
+        </tr>
+        
+    
+        
+        <tr>
+            <td>6</td>
+            <td>East Timor</td>
+            <td>1,291,358 Persons</td>
+            <td>Oceania</td>
+            <td>Portuguese in East Timor</td>
+           
+            
+    
+                     
+        </tr>
+        
+    
+        
+        <tr>
+            <td>7</td>
+            <td>Equatorial Guinea3</td>
+            <td>778,358 Persons</td>
+            <td>Africa</td>
+            <td>Portuguese in Equatorial Guinea</td>
+           
+            
+    
+                     
+        </tr>
+        
+    
+        
+        <tr>
+            <td>8</td>
+            <td>Macau</td>
+            <td>601,969 Persons</td>
+            <td>Asia</td>
+            <td>Portuguese in Macau</td>
+           
+            
+    
+                     
+        </tr>
+        
+    
+        
+        <tr>
+            <td>9</td>
+            <td>Cape Verde</td>
+            <td>560,899 Persons</td>
+            <td>Africa</td>
+            <td>Portuguese in Cape Verde</td>
+           
+            
+    
+                     
+        </tr>
+        
+    
+        
+        <tr>
+            <td>10</td>
+            <td>São Tomé and Príncipe</td>
+            <td>201,025 Persons</td>
+            <td>Africa</td>
+            <td>Portuguese in São Tomé and Príncipe</td>
+           
+            
+    
+                     
+        </tr>
+        
+    
+                    </tbody>
+                </table>
+            </div>
+            <div class="hide-on-med-and-up" id = "list_for_sorting">
+                <input class="search" placeholder="Search" />
+                    <button class="sort" data-sort="title">
+                        Sort By Country Name
+                    </button>
+                    
+                <ul class="collection with-header list" id = "">
+
+        <li class="collection-item avatar">
+            <img src="../img/icons/counter.png" class="circle">
+            <h4><small>( 1 )</small> <span class="title">Brazil</span> </h4>
+            <p class="capital">Portuguese Population: 207,353,391 Persons</p>
+            <p class="capital">Country Region: South America</p>
+            <p class="capital">More Info:  Portuguese in Brazil</p>
+            
+
+           
+         
+            
+        </li>
+        
+    
+        <li class="collection-item avatar">
+            <img src="../img/icons/counter.png" class="circle">
+            <h4><small>( 2 )</small> <span class="title">Angola</span> </h4>
+            <p class="capital">Portuguese Population: 29,310,273 Persons</p>
+            <p class="capital">Country Region: Africa</p>
+            <p class="capital">More Info:  Portuguese in Angola</p>
+            
+
+           
+         
+            
+        </li>
+        
+    
+        <li class="collection-item avatar">
+            <img src="../img/icons/counter.png" class="circle">
+            <h4><small>( 3 )</small> <span class="title">Mozambique</span> </h4>
+            <p class="capital">Portuguese Population: 26,573,706 Persons</p>
+            <p class="capital">Country Region: Africa</p>
+            <p class="capital">More Info:  Portuguese in Mozambique</p>
+            
+
+           
+         
+            
+        </li>
+        
+    
+        <li class="collection-item avatar">
+            <img src="../img/icons/counter.png" class="circle">
+            <h4><small>( 4 )</small> <span class="title">Portugal</span> </h4>
+            <p class="capital">Portuguese Population: 10,839,514 Persons</p>
+            <p class="capital">Country Region: Europe</p>
+            <p class="capital">More Info:  Portuguese in Portugal1</p>
+            
+
+           
+         
+            
+        </li>
+        
+    
+        <li class="collection-item avatar">
+            <img src="../img/icons/counter.png" class="circle">
+            <h4><small>( 5 )</small> <span class="title">Guinea-Bissau</span> </h4>
+            <p class="capital">Portuguese Population: 1,792,338 Persons</p>
+            <p class="capital">Country Region: Africa</p>
+            <p class="capital">More Info:  Portuguese in Guinea-Bissau</p>
+            
+
+           
+         
+            
+        </li>
+        
+    
+        <li class="collection-item avatar">
+            <img src="../img/icons/counter.png" class="circle">
+            <h4><small>( 6 )</small> <span class="title">East Timor</span> </h4>
+            <p class="capital">Portuguese Population: 1,291,358 Persons</p>
+            <p class="capital">Country Region: Oceania</p>
+            <p class="capital">More Info:  Portuguese in East Timor</p>
+            
+
+           
+         
+            
+        </li>
+        
+    
+        <li class="collection-item avatar">
+            <img src="../img/icons/counter.png" class="circle">
+            <h4><small>( 7 )</small> <span class="title">Equatorial Guinea3</span> </h4>
+            <p class="capital">Portuguese Population: 778,358 Persons</p>
+            <p class="capital">Country Region: Africa</p>
+            <p class="capital">More Info:  Portuguese in Equatorial Guinea</p>
+            
+
+           
+         
+            
+        </li>
+        
+    
+        <li class="collection-item avatar">
+            <img src="../img/icons/counter.png" class="circle">
+            <h4><small>( 8 )</small> <span class="title">Macau</span> </h4>
+            <p class="capital">Portuguese Population: 601,969 Persons</p>
+            <p class="capital">Country Region: Asia</p>
+            <p class="capital">More Info:  Portuguese in Macau</p>
+            
+
+           
+         
+            
+        </li>
+        
+    
+        <li class="collection-item avatar">
+            <img src="../img/icons/counter.png" class="circle">
+            <h4><small>( 9 )</small> <span class="title">Cape Verde</span> </h4>
+            <p class="capital">Portuguese Population: 560,899 Persons</p>
+            <p class="capital">Country Region: Africa</p>
+            <p class="capital">More Info:  Portuguese in Cape Verde</p>
+            
+
+           
+         
+            
+        </li>
+        
+    
+        <li class="collection-item avatar">
+            <img src="../img/icons/counter.png" class="circle">
+            <h4><small>( 10 )</small> <span class="title">São Tomé and Príncipe</span> </h4>
+            <p class="capital">Portuguese Population: 201,025 Persons</p>
+            <p class="capital">Country Region: Africa</p>
+            <p class="capital">More Info:  Portuguese in São Tomé and Príncipe</p>
+            
+
+           
+         
+            
+        </li>
+        
+    
+            
+            </ul>
+            <ul class="pagination"></ul>
+            </div>
+
+
+
+
+            
+        </div>
+    </section>
+
+     <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col  s12 center">
+                    <h5 class="white-text">World Facts list </h5>
+                    <p class="grey-text text-lighten-4">Most sourced from all over the web, updated on a weekly basises.
+                    </p>
+                </div>
+               
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center">
+                	&copy; <span id="year-cc"></span> JustList
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/tables.js"></script>
+    <script src="../js/list.js"></script>
+</body>
+</html>
